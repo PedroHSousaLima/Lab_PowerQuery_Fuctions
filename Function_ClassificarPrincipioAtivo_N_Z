@@ -61,7 +61,7 @@ let
                 if Text.Contains(referencia, "OBINUTUZUMABE") then "OBINUTUZUMABE" else
                 if Text.Contains(referencia, "OCITOCINA") then "OCITOCINA" else
                 if Text.Contains(referencia, "OCRELIZUMABE") or Text.Contains(referencia, "OCRELIZUMAB") then "OCRELIZUMABE" else
-                if Text.Contains(referencia, "OCTREOTIDA") or Text.Contains(referencia, "SANDOSTATIN") then "OCTREOTIDA" else
+                if Text.Contains(referencia, "OCTREOTIDA") or Text.Contains(referencia, "OCTREODIDA") or Text.Contains(referencia, "OCTREOTIDE") or Text.Contains(referencia, "SANDOSTATIN") then "OCTREOTIDA" else
                 if Text.Contains(referencia, "ODEVIXIBATE") then "ODEVIXIBATE" else
                 if Text.Contains(referencia, "OFATUMUMABE") then "OFATUMUMABE" else
                 if Text.Contains(referencia, "OFLOXACINO") then "OFLOXACINO" else
@@ -164,7 +164,7 @@ let
                 if Text.Contains(referencia, "PIRAZINAMIDA") then "PIRAZINAMIDA" else
                 if Text.Contains(referencia, "PIRENOXINA SODICA") then "PIRENOXINA SODICA" else
                 if Text.Contains(referencia, "PIRETANIDA") then "PIRETANIDA" else
-                if Text.Contains(referencia, "PIRFENIDONA") then "PIRFENIDONA" else
+                if Text.Contains(referencia, "PIRFENIDONA") or Text.Contains(referencia, "ESBRIET") then "PIRFENIDONA" else
                 if Text.Contains(referencia, "PIRIDOSTIGMINA BROMETO") then "PIRIDOSTIGMINA BROMETO" else
                 if Text.Contains(referencia, "PIRIDOXINA") then "PIRIDOXINA" else
                 if Text.Contains(referencia, "PIRIMETAMINA") then "PIRIMETAMINA" else
@@ -343,7 +343,7 @@ let
                 if Text.Contains(referencia, "SULFASSALAZINA") then "SULFASSALAZINA" else
                 if Text.Contains(referencia, "SULFATO DE MAGNESIO") then "SULFATO DE MAGNESIO" else
                 if Text.Contains(referencia, "SULFATO DE ZINCO") then "SULFATO DE ZINCO" else
-                if Text.Contains(referencia, "SULFATO FERROSO") then "SULFATO FERROSO" else
+                if Text.Contains(referencia, "SULFATO FERROSO") or Text.Contains(referencia, "FOREST GOLD") then "SULFATO FERROSO" else
                 if Text.Contains(referencia, "SULFETO DE SELENIO") then "SULFETO DE SELENIO" else
                 if Text.Contains(referencia, "SULINDACO") then "SULINDACO" else
                 if Text.Contains(referencia, "SULPIRIDA") then "SULPIRIDA" else
